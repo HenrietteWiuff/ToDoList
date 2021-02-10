@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #CED3DC;
+  height: 100%;
 }
 
 code {
@@ -14,4 +16,29 @@ code {
 
 .strike {
   text-decoration: line-through;
+  color: red;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.wrapper {
+  width: 20%;
+  padding: 40px;
+  background-color: #f1f1f1;
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+}
+
+.App {
+  text-align: left !important;
+  /* background-color: blue; */
+}
+.flexBox {
+  display: flex;
 }

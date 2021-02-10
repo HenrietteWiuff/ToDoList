@@ -17,9 +17,14 @@ function App() {
   }
  
  return (
-   <div className="App">
-     <Header />
-     <ToDoList toDoList={toDoList} handleToggle={handleToggle}/>
+   <div className="wrapper">
+      <div className={"App"}>
+        <Header />
+        <div className="flexBox">
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></input>
+          <ToDoList toDoList={toDoList} handleToggle={handleToggle}/>
+        </div>
+      </div>
    </div>
  );
 }

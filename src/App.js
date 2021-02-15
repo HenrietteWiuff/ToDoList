@@ -15,14 +15,20 @@ function App() {
     });
     setToDoList(mapped);
   }
- 
+  const handleFilter = () => {
+    let filtered = toDoList.filter(task => {
+      return !task.complete;
+    });
+    setToDoList(filtered);
+  }
+
  return (
    <div className="wrapper">
       <div className={"App"}>
         <Header />
         <div className="flexBox">
-          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></input>
-          <ToDoList toDoList={toDoList} handleToggle={handleToggle}/>
+          
+          <ToDoList toDoList={toDoList} handleToggle={handleToggle} handleFilter={handleFilter}/>
         </div>
       </div>
    </div>

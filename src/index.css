@@ -16,29 +16,24 @@ code {
 
 .strike {
   text-decoration: line-through;
-  color: red;
+  color:#ec058e;
 }
 
 h1 {
+  text-align: center;
   text-decoration: underline;
+  font-family: cursive;
 }
-
-.wrapper {
-  width: 20%;
-  padding: 40px;
-  background-color: #f1f1f1;
-  border: 1px solid #000000;
+.mainWrapper{
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin: auto;
-  position: relative;
+  margin: 30px 0px 30px 0px;
 }
 
-.App {
-  text-align: left !important;
-  /* background-color: blue; */
-}
-.flexBox {
-  display: flex;
+.wrapper{
+  background-color: #f4bfdb;
+  border: 5px solid #ec058e;
+  border-radius: 10px;
+  padding: 40px;
 }

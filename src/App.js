@@ -33,15 +33,15 @@ function App() {
   };
 
  return (
-   <div className="wrapper">
-      <div className="App">
+   <div className="mainWrapper">
+      <div className="App, wrapper">
         <Header />
-        <div className="flexBox">
+
           <ToDoList toDoList={toDoList} handleToggle={handleToggle} handleFilter={handleFilter}/>
-        </div>
+  
         <ToDoForm addTask={addTask}/>
       </div>
-   </div>
+    </div>
  );
 }
  

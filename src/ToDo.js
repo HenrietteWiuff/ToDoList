@@ -8,7 +8,9 @@ const ToDo = ({todo, handleToggle}) => {
     }
 
    return (
+       
        <div id={todo.id} className={todo.complete ? "strike" : ""} onClick={handleClick}>
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" id={todo.id} className={todo.complete ? "flexCheckChecked" : ""}></input>
            {todo.task}
        </div>
    );

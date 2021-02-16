@@ -36,7 +36,7 @@ function App() {
    <div className="mainWrapper">
       <div className="App, wrapper">
         <Header />
-
+         
           <ToDoList toDoList={toDoList} handleToggle={handleToggle} handleFilter={handleFilter}/>
   
         <ToDoForm addTask={addTask}/>

@@ -36,4 +36,20 @@ h1 {
   border: 5px solid #ec058e;
   border-radius: 10px;
   padding: 40px;
+  align-items: center;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+}
+
+.inputBox{
+  margin: 5px 0px;
+  min-width: 250px;
+}
+
+.clearButton {
+  background-color: #f4bfdb;
+  border: 2px solid #ec058e
 }

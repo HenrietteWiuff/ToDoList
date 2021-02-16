@@ -14,8 +14,8 @@ const ToDoForm = ({ addTask }) => {
         setUserInput("");
     }
     return (
-        <form onSubmit={handleSubmit}>
-            <input value={userInput} type="text" onChange={handleChange} placeholder="Enter task..."/>
+        <form onSubmit={handleSubmit} className="flex">
+            <input className="inputBox" value={userInput} type="text" onChange={handleChange} placeholder="Enter task..."/>
             <button class="btn btn-success">Submit</button>
         </form>
     );
